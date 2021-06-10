@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="editview_stroke">#c4c4c4</color>
+    <color name="login_background">#fd9bad</color>
+    <color name="nav_text_color">#949494</color>
+    <color name="nav_text_color_gone">#e1ac4b</color>
+    <color name="edit_white">#fdfdfe</color>
+    <color name="dividing_line">#e6e6e6</color>
+
+</resources>

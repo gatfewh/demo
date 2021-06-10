@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <RadioGroup
+            android:id="@+id/myRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/main_btn"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/nav_main_drawable"
+                android:text="@string/main"
+                android:textColor="@drawable/nav_text_color"
+                style="@style/nav_radio"
+                />
+            <RadioButton
+                android:id="@+id/european_btn"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/nav_european_drawable"
+                android:text="@string/european_enterprises"
+                android:textColor="@drawable/nav_text_color"
+                style="@style/nav_radio"
+                />
+            <RadioButton
+                android:id="@+id/chinese_btn"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/nav_chinese_drawable"
+                android:textColor="@drawable/nav_text_color"
+                android:text="@string/chinese_enterprises"
+                style="@style/nav_radio"
+                />
+            <RadioButton
+                android:id="@+id/follow_btn"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/nav_follow_drawable"
+                android:text="@string/follow"
+                android:textColor="@drawable/nav_text_color"
+                style="@style/nav_radio"
+                />
+            <RadioButton
+                android:id="@+id/mine_btn"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/nav_mine_drawable"
+                android:text="@string/mine"
+                android:textColor="@drawable/nav_text_color"
+                style="@style/nav_radio"
+                />
+
+
+        </RadioGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
